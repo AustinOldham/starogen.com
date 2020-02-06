@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>{{page_title}}</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/starbackground.css') }}">
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/starogen_logo_v2_16px.png') }}" sizes="16x16" />
+  </head>
+  <body>
+    <h1>Starogen</h1>
+    {% block content %}{% endblock %}
+	<div id="menu">
+		<ul>
+		<li><a class="{% block nav_home%}{% endblock %} stroketext" href="http://starogen.com">Home</a></li>
+		<li><a class="{% block nav_about%}{% endblock %} stroketext" href="http://starogen.com/about">About</a></li>
+		<li><a class="{% block nav_contact%}{% endblock %} stroketext" href="http://starogen.com/contact">Contact</a></li>
+		<li><a class="{% block nav_download%}{% endblock %} stroketext" href="http://starogen.com/download">Download</a></li>
+		<li><a class="{% block nav_wiki%}{% endblock %} stroketext" href="http://starogen.com/wiki">Wiki</a></li>
+		</br><li><a  style ="font-size: 18px" class="stroketext" href="http://oldham.cc">&#169; 2020 Austin Oldham. All rights reserved.</a></li>
+		</ul>
+	</div> 
+  </body>
+</html>
+

@@ -1,0 +1,161 @@
+body {
+    background-image: url('static/images/starrybgV1.png');
+    background-repeat: repeat;
+}
+h1 {
+	font-family: starogen_font_widerregular;
+	text-align: center;
+	font-size: 100px;
+	/*letter-spacing: 12px;*/
+	font-weight: normal;
+	color: #ffffff;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+h2 {
+	font-family: starogen_font_widerregular;
+	text-align: center;
+	font-size: 60px;
+	font-weight: normal;
+	color: #ffffff;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+h3 {
+	font-family: starogen_font_widerregular;
+	text-align: center;
+	font-size: 35px;
+	font-weight: normal;
+	color: #ffffff;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+p {
+	font-family: starogen_font_widerregular;
+    font-size:20px;
+    color:#ffffff;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+a {
+	color: #7CFC00;
+}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
+mark.blue {
+    color:#0000A0;
+    background: none;
+}
+.stroketext {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+    
+}
+
+.invertedstroketext {
+    color: black;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+    
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
+
+@font-face {
+    font-family: 'starogen_font_widerregular';
+    src: url('font/wider/starogen-font-wider-webfont.woff2') format('woff2'),
+         url('font/wider/starogen-font-wider-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#menu {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	align: center;
+	line-height: 1px;
+}
+
+
+#menu a {
+    color: #ffffff;
+	font-family: starogen_font_widerregular;
+	font-size: 20px;
+    text-align: center;
+	text-decoration: none;
+    display: block;
+	padding: 14px 16px;
+	
+	
+}
+#menu a:hover {
+    color: #7CFC00;
+}
+#menu a.current {
+    color: #428600;
+}
+
+#menu a.invertedstroketext {
+	color: #000000;
+}
+
+#menu ul{
+	/*background-color: #000000;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	
+	top: 0;
+    overflow: hidden;
+	margin: auto;
+    width: 70%;
+	
+}
+
+#menu li {
+	/*border-right: 4px solid #000000;*/
+	display: inline-block;
+}
+
+img {
+	border-width: 2px;
+	border-color: White;
+	border-style: solid;
+}
